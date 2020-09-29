@@ -1,3 +1,3 @@
 package CustomTree
 
-case class Node(point: Point, children: Seq[Point])
+case class Node(point: Point, children: Seq[Node])
